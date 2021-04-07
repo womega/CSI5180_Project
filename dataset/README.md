@@ -1,7 +1,7 @@
 # README
-This project is a collection of three corpora which can be used for evaluating chatbots or other conversational interfaces. Two of the corpora were extracted from [StackExchange](https://data.stackexchange.com/), one from a Telegram chatbot.
+This project uses a collection of three corpora used for evaluating chatbots or other conversational interfaces. Two of the corpora were extracted from [StackExchange](https://data.stackexchange.com/), one from a Telegram chatbot.
 
-If you use the data and publish please let us know and cite our [SIGdial 2017 paper](http://www.sigdial.org/workshops/conference18/proceedings/pdf/SIGDIAL22.pdf):
+If you use the data and publish please let them know and cite their article [SIGdial 2017 paper](http://www.sigdial.org/workshops/conference18/proceedings/pdf/SIGDIAL22.pdf):
 
 ```
 @InProceedings{braun-EtAl:2017:SIGDIAL,
@@ -18,10 +18,6 @@ If you use the data and publish please let us know and cite our [SIGdial 2017 pa
 
 ```
 
-## Errata
-There is an error in Table 5 of the paper. In the "true +" column, the overall sum should be 573, not 820, and accordingly precision, recall, and f-score are 0.92, 0.85, and 0.88.
-
-[The reason for this error is in the Excel evaluation sheet, the total number of "true +" (573) was stored as number of "true +" for the chatbot corpus. Added up with the result for the other corpora (77, 170) we end up with 820.]
 
 ## License
 All three corpora are released under the CC BY-SA 3.0 license.
@@ -43,7 +39,7 @@ Eight intents (ChangePassword, DeleteAccount, DownloadVideo, ExportData, FilterS
 
 Two intents (Departure Time, Find Connection) and five entity types (StationStart, StationDest, Criterion, Vehicle, Line).
 
-## Evaluation Scripts
+## Evaluation Scripts (by authors)
 Python scripts for automated evaluation are provided [here](https://github.com/sebischair/NLU-Evaluation-Scripts).
 
 ## Contact Information
